@@ -36,24 +36,28 @@ const Navbar = () => {
           <a
             href="#About"
             className="block py-2 mb-3 hover:transform hover:scale-125 hover:transition-transform hover:ease-in-out duration-200"
-          >
-            Home
-          </a>
-          <a
-            href="#Skills"
-            className="block py-2 mb-3 hover:transform hover:scale-125 hover:transition-transform hover:ease-in-out duration-200"
+            onClick={toggleMenu}
           >
             About
           </a>
           <a
+            href="#Skills"
+            className="block py-2 mb-3 hover:transform hover:scale-125 hover:transition-transform hover:ease-in-out duration-200"
+            onClick={toggleMenu}
+          >
+            Skills
+          </a>
+          <a
             href="#Project"
             className="block py-2 mb-3 hover:transform hover:scale-125 hover:transition-transform hover:ease-in-out duration-200"
+            onClick={toggleMenu}
           >
-            Services
+            Projects
           </a>
           <a
             href="#Contacts"
             className="block py-2 mb-3 hover:transform hover:scale-125 hover:transition-transform hover:ease-in-out duration-200"
+            onClick={toggleMenu}
           >
             Contact
           </a>
