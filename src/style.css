@@ -1,0 +1,17 @@
+.gradient-text {
+  background: linear-gradient(90deg, #ef4496 0%, #a73ed9 46%, #872789 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-stroke {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-stroke-width: 1px;
+}
+
+.gradient-background {
+  background: linear-gradient(0deg, #ef4496 0%, #cf1111 100%);
+}
