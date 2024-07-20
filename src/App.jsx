@@ -61,18 +61,18 @@ const Navbar = () => {
           >
             Contact
           </a>
-          <button className="mt-4 w-24 h-8 bg-gray-400 rounded font-Sora text-black flex justify-center items-center font-semibold text-sm">
-            <p className="text-black font-semibold text-sm mr-2 font-Sora">
-              Resume
-            </p>
-            <a href="https://docs.google.com/document/d/1aquSH9ugcf59272ia3Q2GOFipysoPkS_CGLTanbHhOc/export?format=pdf">
+          <a href="https://docs.google.com/document/d/1aquSH9ugcf59272ia3Q2GOFipysoPkS_CGLTanbHhOc/export?format=pdf">
+            <button className="mt-4 w-24 h-8 bg-gray-400 rounded font-Sora text-black flex justify-center items-center font-semibold text-sm">
+              <p className="text-black font-semibold text-sm mr-2 font-Sora">
+                Resume
+              </p>
               <img
                 className="h-4 w-4 object-cover"
                 src="./download (1).svg"
                 alt=""
               />
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
       </div>
     </nav>
